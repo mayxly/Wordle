@@ -97,23 +97,3 @@ void available_letters(char *guesses[], char *results[], int num_guesses,
         }
     }
 }
-
-// See wordle.h for documentation.
-int find_solution(char *guesses[], char *results[], int num_guesses,
-                  char *word_list[], int num_words,
-                  char *solutions[], int max_solutions)
-{
-    int counter = 0;
-    for (int i = 0; i < num_words; ++i)
-    {
-        if (counter <= max_solutions)
-        {
-            if (valid_hard_guess(guesses, results, num_guesses, word_list[i]))
-            {
-                solutions[counter] = word_list[i];
-                ++counter;
-            }
-        }
-    }
-    return counter;
-}
