@@ -1,6 +1,6 @@
 # Wordle
 
-This program allows users to play the New York Times Wordle game in easy and normal mode. 
+I play wordle every. single. day. This program I coded allows users to play the New York Times Wordle game in easy and normal mode. 
 
 
 RULES:\
@@ -13,7 +13,7 @@ An incorrect letter returns a period (.).\
 Letters can be used more than once.\
 Answers are never plurals.\
 \
-DIFFICULTY:\
+DIFFICULTY OPTIONS:\
 Easy mode: Word does not need to exist in the wordle dictionary (2309 wordlist).\
 Normal mode: Word must exist in the wordle dictionary.\
 \
@@ -33,6 +33,9 @@ guess #4: storm
 &emsp;
 output: "YOU WIN! The word was: storm"\
 \
+Here is the actual New York Times wordle game if you want to play:\
+https://www.nytimes.com/games/wordle/index.html
+
 Have fun!
 
 
