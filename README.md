@@ -1,6 +1,6 @@
 # Wordle
 
-I am obsessed with playing wordle, it's become a part of my daily routine. This program I coded allows users to play the New York Times Wordle game in easy and normal mode. 
+I am obsessed with playing wordle!! This program I coded allows users to play the New York Times Wordle game in easy and normal mode. 
 
 
 RULES:\
